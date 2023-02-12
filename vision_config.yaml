@@ -1,0 +1,45 @@
+active_camera: 1
+camera: 
+  1:
+    intrinsics:
+      cam_matrix: [[959.456, 0, 958.906],[0, 959.456, 544.816],[0,0,1]]
+      dist_coeff: [0.0, 0.0, 0.0, 0.0, 0.0]
+    
+    extrinsics:
+      global_origin:  [0.0, 0.0, 0.0] 
+      realsense_origin: [0.0, 0.0, 0.0]
+      imu_correction: [-0.02657218,  0.00845852,  0.        ]
+      calibrate_yaw: False
+      default_yaw: [0.0, 0.0, 0.0]
+      camera_depth_translation: [0.014949, 0.0002385, 0.0002678]
+      max_iters: 100
+
+    camera_params:
+      enable_auto_exposure: 0
+      enable_auto_white_balance: 0
+      sharpness: 100
+      contrast: 50
+      brightness: 100
+      exposure: 120
+
+
+tracking:
+  enable: True
+  area_th: 160
+  centroid_th: 12
+
+
+wandb:
+  use_wandb: False
+
+
+use_aruco_xy: False
+
+yaw_error_threshold: 0.035
+
+rectangle_length: 1.4
+rectangle_width: 0.75
+
+depth_tracking:
+  min_dist: 0.5
+  max_dist: 2.25

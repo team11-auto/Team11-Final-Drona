@@ -1,0 +1,14 @@
+**/__pycache__/**
+
+**/aruco/**
+**/realsense/**
+**/graphs/**
+
+**/aruco/**
+**/realsense/**
+
+debug.txt
+
+*.avi
+
+**/wandb/**
