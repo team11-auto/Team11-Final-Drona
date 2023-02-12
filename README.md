@@ -68,7 +68,7 @@ The following procedure needs to be followed to connect the Pluto Drone / Drones
  2. Connect to the Pluto Drone Wi-Fi by entering the provided password on the secondary system. This needs to be performed individually for each drone.
  3. Run the shell script on the secondary system 
     ```bash
-    ./setup.sh
+    ./telnet.sh
     ```
  4. Verify the connection and note the IP address of the connected Drone / Drones on the primary system using the following command
      ```bash
